@@ -15,7 +15,7 @@ rating_dict = {
 total_grade = 0
 total_rating = 0
 for i in range(20):
-    course, grade, rating = s.readline().strip().split()
+    course, grade, rating = input().split()
     if rating == "P":
         continue
     else:
